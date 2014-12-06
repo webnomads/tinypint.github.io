@@ -432,6 +432,7 @@ header.navigation {
       color: #FFF;
       
       h1 {
+        color: #FFF;
         font-size: 4.5em;
         line-height: 1.25em;
         margin-bottom: .5em;
@@ -497,11 +498,31 @@ header.navigation {
 .content {
 	@include outer-container;
   @include clearfix;
-  padding: 2em 0;
+  padding: 4em 0;
+  header {
+    &.header {
+      margin: 2em 0;
+      width: 80%;
+    }
+  }
   h1 {
     &.title {
-      font-size: 5.5em;
+      font-size: 8em;
       text-transform: uppercase;
+    }
+  }
+  .intro {
+    font-size: 1.75em;
+    font-weight: 200;
+    color: #676767;
+  }
+  section {
+    @include outer-container;
+    margin-bottom: 2em;
+    .column {
+      @include span-columns(4);
+      @include omega(3n);
+      padding-right: 20px;
     }
   }
 }
