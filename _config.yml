@@ -1,12 +1,10 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Tinypint - A Web Design & Marketing Agency in Grand Rapids
+email: bob@tinypint.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We make, market & maintain WordPress websites, web-based applications and interactive marketing campaigns. Need a hand? Give us a call today at 616.536.8283 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://tinypint.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
