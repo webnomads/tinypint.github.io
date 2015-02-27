@@ -20,7 +20,7 @@ $(document).ready(function() {
     $(this).addClass("active-nav-item");
     $(".nav .more").removeClass("active-nav-item");
   });
-
+  /*
   $(".main .type").typed({
     strings: ["Help Small Businesses", "Support Non-Profits", "Augment Existing Agencies", "Are Here To Help You."],
     //strings: ["Make","Market","Maintain"],
@@ -30,5 +30,12 @@ $(document).ready(function() {
     backDelay: 4000,
     showCursor: true,
   });
+  */
 
+  var $container = $('.services.grid');
+  // init
+  $container.packery({
+    itemSelector: '.item',
+    gutter: 10
+  });
 });
