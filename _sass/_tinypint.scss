@@ -479,7 +479,7 @@ header.navigation {
         font-weight: 200;
         line-height: 1.4em;
         @include media($medium-screen) {
-          width: 800px;
+          max-width: 900px;
         }
         @include media(max-width $small-screen) {
           font-size: 1.25em;
