@@ -433,15 +433,42 @@ header.navigation {
       
       h1 {
         color: #FFF;
-        font-size: 4.5em;
+        font-size: 4em;
         line-height: 1.25em;
         margin-bottom: .5em;
+        position: relative;
         text-transform: uppercase;
         @include media($medium-screen) {
-          width: 800px;
         }
         @include media(max-width $small-screen) {
           font-size: 2em;
+        }
+        .type {
+                    
+        }
+        .typed-cursor{
+            opacity: 1;
+            -webkit-animation: blink 1.5s infinite;
+            -moz-animation: blink 1.5s infinite;
+            animation: blink 1.5s infinite;
+            margin-left: 5px;
+            position: relative;
+            top: -5px;
+            @keyframes blink{
+                0% { opacity:1; }
+                50% { opacity:0; }
+                100% { opacity:1; }
+            }
+            @-webkit-keyframes blink{
+                0% { opacity:1; }
+                50% { opacity:0; }
+                100% { opacity:1; }
+            }
+            @-moz-keyframes blink{
+                0% { opacity:1; }
+                50% { opacity:0; }
+                100% { opacity:1; }
+            }
         }
       }
 
@@ -488,6 +515,9 @@ header.navigation {
     p {
       font-weight: 500;
       margin: 40px 0;
+      @include media(max-width $small-screen) {
+        margin:15px 0;
+      }
     }
   }
   @include media(max-width $small-screen) {
@@ -498,16 +528,20 @@ header.navigation {
 .content {
 	@include outer-container;
   @include clearfix;
+  &.centered {
+    text-align: center;
+  }
   padding: 4em 0;
   header {
     &.header {
       margin: 2em 0;
-      width: 80%;
+      /*width: 80%;*/
+      text-align: center;
     }
   }
   h1 {
     &.title {
-      font-size: 8em;
+      font-size: 4em;
       text-transform: uppercase;
     }
   }
@@ -523,6 +557,23 @@ header.navigation {
       @include span-columns(4);
       @include omega(3n);
       padding-right: 20px;
+    }
+  }
+  dl {
+    &.contact-methods {
+      max-width: 500px;
+      margin: 0 auto;
+      dt {
+        font-weight: normal;
+        padding: 20px 0;
+        p {
+          font-size: 18px;
+          margin: 0;
+        }
+        em {
+          font-size: 12px;
+        }
+      }
     }
   }
 }

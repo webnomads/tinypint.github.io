@@ -21,10 +21,8 @@ $(document).ready(function() {
     $(".nav .more").removeClass("active-nav-item");
   });
 
-
-  /*
-  $(".main .typed").typed({
-    strings: ["Make Websites & Custom Software", "Market Our Client's", "Maintain Their Solutions"],
+  $(".main .type").typed({
+    strings: ["Help Small Businesses", "Support Non-Profits", "Augment Existing Agencies", "Are Here To Help You."],
     //strings: ["Make","Market","Maintain"],
     typeSpeed: 100,
     contentType: 'html', // or 'text'
@@ -32,6 +30,5 @@ $(document).ready(function() {
     backDelay: 4000,
     showCursor: true,
   });
-  */
 
 });
