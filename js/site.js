@@ -22,12 +22,12 @@ $(document).ready(function() {
   });
 
   $(".main .type").typed({
-    strings: ["Help Small Businesses", "Support Non-Profits", "Augment Existing Agencies", "Are Here To Help You."],
+    strings: ["Help Small Businesses", "Support Non-Profits", "Augment Existing Agencies", "Are Here To Help You"],
     //strings: ["Make","Market","Maintain"],
     typeSpeed: 100,
     contentType: 'html', // or 'text'
     startDelay: 500,
-    backDelay: 4000,
+    backDelay: 2000,
     showCursor: true,
   });
 
