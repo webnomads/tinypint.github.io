@@ -1,18 +1,27 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en">
   {% include head.html %}
-
   <body>
-
     {% include navigation.html style="light" %}
+    <div class="main-container">  
+      {{ content }}
+      {% include footer.html %}
+    </div>
 
-    <section id="main" class="content">
-        {{ content }}
-    </section>
-
-    {% include footer.html %}
-
+    <script src="{{ "/js/jquery.js" | prepend: site.baseurl }}"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/skrollr.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/flexslider.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/lightbox.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/twitterfetcher.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/spectragram.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/smooth-scroll.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/jquery.plugin.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/countdown.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/placeholders.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/typed.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/scripts.js" | prepend: site.baseurl }}"></script>
   </body>
-
 </html>

@@ -1,18 +1,26 @@
-<header class="navigation {{ include.style }}">
-  <div class="navigation-wrapper">
-    <a href="/" class="logo">
-      {% include logo_text.html %}
-    </a>
-    <!---
-    <a href="" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
-    <div class="nav">
-      <ul id="navigation-menu">
-        <li class="nav-link"><a class="page-link" href="/about">About</a></li>
-        <li class="nav-link"><a class="page-link" href="/services">Services</a></li>
-        <li class="nav-link"><a class="page-link" href="/work">Work</a></li>
-        <li class="nav-link"><a class="page-link" href="/contact">Contact Us</a></li>
-      </ul>
+<div class="nav-container">
+  <nav class="nav-1 nav-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <a href="{{ site.baseurl }}/" class="home-link">
+            {% include logo_text.html %}
+          </a>
+          <ul class="menu">
+            <li><a href="{{ site.baseurl }}/">Home</a></li>
+            <li><a href="{{ site.baseurl }}/about">About</a></li>
+            <li><a href="{{ site.baseurl }}/work">Work</a></li>
+            <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+            <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+          </ul>
+        </div>
+      </div><!--end of row-->
+    </div><!--end of container-->
+  
+    <div class="mobile-toggle">
+      <div class="bar-1"></div>
+      <div class="bar-2"></div>
     </div>
-    -->
-  </div>
-</header>
+  </nav>
+
+</div>

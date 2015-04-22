@@ -1,23 +1,149 @@
 ---
-layout: homepage
+layout: default
 ---
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<section class="text-hero">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <h1 class="intro">We <span class="type"></span></h1>
+      </div>
+    </div><!--end of row-->
+  
+    <div class="row text-center">
+      <div class="col-md-8 col-md-offset-2 col-sm-12">
+        <p class="super-lead">
+          Great results don't require a large firm. We're a small, agile team focused on creating meaningful user experiences.
+        </p>
+      </div>  
+    </div>
+  </div><!--end of container-->
+  <div class="cover"></div>
+</section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<section class="image-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-7">
+        <div class="text-block">
+          <div class="detail-line"></div>
+          <h5>Delivering ideas + innovation</h5>
+          <h4>Your ambitious ideas<br> Our unwavering passion</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+          </p>
+          <span class="uppercase">Some industries we've worked in</span>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="image-holder col-md-6 col-sm-4 pull-right">
+    <div class="background-image-holder">
+      <img alt="Slide Background" class="background-image" src="/img/work_dtc2.jpg">
+    </div>
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</section>
 
-</div>
+<section class="image-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-7 col-md-offset-7 col-sm-offset-5">
+        <div class="text-block">
+          <div class="detail-line"></div>
+          <h5>Delivering ideas + innovation</h5>
+          <p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-holder col-md-6 col-sm-4 pull-left">
+    <div class="image-slider">
+      <ul class="slides">
+        <li>
+          <div class="background-image-holder">
+            <img alt="Everyone's desks reflect who they are and what they do" class="background-image" src="/img/tinypint_desk.jpg">
+          </div>
+        </li>
+        <li>
+          <div class="background-image-holder">
+            <img alt="RFID tags for Tinypint" class="background-image" src="/img/tinypint_rfid.jpg">
+          </div>
+        </li>
+        <li>
+          <div class="background-image-holder">
+            <img alt="This is my workspace - there are many like it but this one is mine" class="background-image" src="/img/tinypint_desk-josh.jpg">
+          </div>
+        </li>
+        <li>
+          <div class="background-image-holder">
+            <img alt="Loot Crate! Yeah - we're huge fans of it." class="background-image" src="/img/tinypint_lootcrate.jpg">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</section>
+
+<section class="hero-project">
+  <div class="background-image-holder">
+    <img alt="Slide Background" class="background-image" src="/img/client_reset-foundation_lg.jpg">
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-7">
+        <div class="text-block">
+          <div class="detail-line"></div>
+          <h5 class="text-white">THE RESET FOUNDATION</h5>
+          <h2 class="text-white">A positive new image, donation management &amp; a website for a great non-profit</h2>
+        </div>
+        <p class="text-white">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam
+        </p>
+        <a class="text-link text-white" href="#">View the case study <i class="icon arrow_right"></i></a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="clients-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <div class="text-block">
+          <p class="super-lead text-white">A few of the many valued clients we've had the pleasure to work with.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-md-3 col-sm-6 text-center">
+        <img alt="Client" src="/img/client_springthrough.png">
+      </div>
+    
+      <div class="col-md-3 col-sm-6 text-center">
+        <img alt="Client" src="/img/client_gelo.png">
+      </div>
+    
+      <div class="col-md-3 col-sm-6 text-center">
+        <img alt="Client" src="/img/client_plenty.png">
+      </div>
+    
+      <div class="col-md-3 col-sm-6 text-center">
+        <img alt="Client" src="/img/client_cql.png">
+      </div>
+    
+    </div>
+  </div>
+</section>
