@@ -2,6 +2,13 @@ html, body{
   height:100%;
 }
 
+.row {
+  &.fluid {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
 svg {
   &.logo {
     height: 50px;
