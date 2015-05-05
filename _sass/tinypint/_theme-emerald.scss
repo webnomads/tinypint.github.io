@@ -3499,6 +3499,9 @@ iframe {
   height: 200px;
   margin-bottom: 18px;
 }
+.contained-projects .col-md-4:nth-child(3n+1) {
+  clear: left;
+}
 .contained-projects .project {
   margin-bottom: 40px;
   transition: all 0.3s ease;
