@@ -9,8 +9,8 @@ permalink: /about/
     <div class="row">
       <div class="col-md-8 col-md-offset-2 col-sm-12">
         <h1 class="text-white text-center">Our Manifesto</h1>
-        <p class="super-lead text-white">
-          It's no secret that we love what we do. Even more important is our continuous focus on maximizing our client's investment in working with our company. From sketches to finished product, we excel at creating solid, no-bullshit solutions for our clients.
+        <p class="super-lead text-white text-center">
+          It's no secret that we love what we do. From our first sketches to the final product, our singular focus is on giving the client the most for every penny spent. We listen hard and follow through. Pitch perfect, no bullshit.
         </p>
       </div>
     </div><!--end of row-->
@@ -35,8 +35,7 @@ permalink: /about/
         </ul>
       </div>
       <div class="col-sm-6 text-center">
-        <img alt="Team Member" src="/img/team2-bw.png">
-      </div>
+       </div>
     </div><!--end of row-->
   </div><!--end of container-->
 </section>
@@ -44,16 +43,15 @@ permalink: /about/
   <div class="container">
     <div class="row">
       <div class="col-sm-6 text-center">
-        <img alt="Team Member" src="/img/team1-bw.png">
       </div>
       <div class="col-md-5 col-md-offset-1 col-sm-6">
         <h3 class="text-white">Joshua Yuhas</h3>
         <span class="alt-font sub">Content, Social Media</span>
         <p>
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi
+          Ask Joshua what he does and he'll reply with "words, words, words". His passion for the written language allows him to clearly communicate with the audience, whether through a tweet or a long-form copy. Joshua recognizes the need for clear, concise content that drives people to the next level of interaction.
         </p>
         <p>
-          Quos dolores et quas molestias excepturi sint occaecati.
+          <em>"Language is what brings us together. If we are not clear in what we say, confusion leads the conversation."</em>
         </p>
         <ul class="social-links">
           <li><a href="#"><i class="icon social_twitter"></i></a></li>
@@ -71,15 +69,17 @@ permalink: /about/
       <div class="col-sm-4">
         <div class="info-panel">
           <div class="title">
-            <h4>Clear Direction</h4>
+            <h4>Design</h4>
           </div>
           <div class="body">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Beautiful design is a marriage of many disciplines. From the initial design concept to successful execution of the finished design - we pay close attention to every step to make sure it’s just right.
             </p>
             <ul class="arrow-list">
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Applications</a></li>
+              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">UI/UX Design</a></li>
+              <li><a href="#">Branding</a></li>
+              <li><a href="#">Typography</a></li>
             </ul>
           </div>
         </div>
@@ -87,15 +87,17 @@ permalink: /about/
       <div class="col-sm-4">
         <div class="info-panel">
           <div class="title">
-            <h4>Digestible Information</h4>
+            <h4>Develop</h4>
           </div>
           <div class="body">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Whether it’s making a flat file system website to one with a user-friendly CMS, executing a good design is an art in itself. The challenge is building out a functional and beautiful system while keeping your visitors in mind.
             </p>
             <ul class="arrow-list">
-              <li><a href="#">Brand Strategy</a></li>
-              <li><a href="#">Print Marketing</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Content Development</a></li>
+              <li><a href="#">Information Architecture</a></li>
+               <li><a href="#">eCommerce Solution</a></li>
             </ul>
           </div>
         </div>
@@ -103,15 +105,17 @@ permalink: /about/
       <div class="col-sm-4">
         <div class="info-panel">
           <div class="title">
-            <h4>Useful Elements</h4>
+            <h4>Support</h4>
           </div>
           <div class="body">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              It’s all good until it breaks. The last thing you want is another distraction especially when it is a tool that you use everyday. We make sure that your website is performing how you expect it to, so you can get to doing what you do.
             </p>
             <ul class="arrow-list">
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Applications</a></li>
+              <li><a href="#">Hosting/Domain Management</a></li>
+              <li><a href="#">Analytics</a></li>
+              <li><a href="#">Search Engine Optimization</a></li>
+              <li><a href="#">Email Support</a></li>
             </ul>
           </div>
         </div>
