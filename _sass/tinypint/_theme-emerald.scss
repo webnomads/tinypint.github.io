@@ -1383,6 +1383,9 @@ nav .cart .tag {
   transition: opacity 0.5s ease;
   -webkit-transition: opacity 0.5s ease;
   -moz-transition: opacity 0.5s ease;
+  &.top-left {
+    background-position: top left!important;
+  }
 }
 .background-image-holder.parallax-background {
   height: 120%;
