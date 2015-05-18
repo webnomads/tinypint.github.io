@@ -23,6 +23,21 @@ svg {
   }
 }
 
+dl {
+  &.estimated-costs {
+    dd,
+    dt {
+      margin-top: 5px;
+    }
+    dd {
+      clear: left;
+      float: left;
+      margin-right: 10px;
+      width: 90px;
+    }
+  }
+}
+
 header.navigation {
   $navigation-padding: 1em;
   $navigation-background: $dark-gray;
