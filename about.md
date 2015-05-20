@@ -21,7 +21,7 @@ permalink: /about/
     <div class="row">
       <div class="col-md-5 col-md-offset-1 col-sm-6">
         <h3>Bob Orchard</h3>
-        <span class="alt-font sub">UX, Marketing</span>
+        <span class="alt-font sub">User Experience Design, Marketing</span>
         <p>
           Bob has spent the last 10 years gaining experience in online marketing, user experience design, development, e-commerce solutions and WordPress. He constantly focuses on creating the best experience possible on each and every project we work on.
         </p>
@@ -30,7 +30,6 @@ permalink: /about/
         </p>
         <ul class="social-links">
           <li><a href="http://twitter.com/boborchard" target="_blank"><i class="icon social_twitter"></i></a></li>
-          <li><a href="http://facebook.com/boborchard" target="_blank"><i class="icon social_facebook"></i></a></li>
           <li><a href="http://linkedin.com/in/boborchard" target="_blank"><i class="icon social_linkedin"></i></a></li>
         </ul>
       </div>
@@ -54,9 +53,8 @@ permalink: /about/
           <em>"Language is what brings us together. If we are not clear in what we say, confusion leads the conversation."</em>
         </p>
         <ul class="social-links">
-          <li><a href="#"><i class="icon social_twitter"></i></a></li>
+          <li><a href="http://twitter.com/uhawl" target="_blank"><i class="icon social_twitter"></i></a></li>
           <li><a href="#"><i class="icon social_facebook"></i></a></li>
-          <li><a href="#"><i class="icon social_dribbble"></i></a></li>
         </ul>
       </div>
     </div><!--end of row-->
@@ -76,10 +74,10 @@ permalink: /about/
               Beautiful design is a marriage of many disciplines. From the initial design concept to successful execution of the finished design - we pay close attention to every step to make sure it’s just right.
             </p>
             <ul class="arrow-list">
-              <li><a href="#">Graphic Design</a></li>
-              <li><a href="#">UI/UX Design</a></li>
-              <li><a href="#">Branding</a></li>
-              <li><a href="#">Typography</a></li>
+              <li>Graphic Design</li>
+              <li>UI/UX Design</li>
+              <li>Branding</li>
+              <li>Typography</li>
             </ul>
           </div>
         </div>
@@ -94,10 +92,10 @@ permalink: /about/
               Whether it’s making a flat file system website to one with a user-friendly CMS, executing a good design is an art in itself. The challenge is building out a functional and beautiful system while keeping your visitors in mind.
             </p>
             <ul class="arrow-list">
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Content Development</a></li>
-              <li><a href="#">Information Architecture</a></li>
-               <li><a href="#">eCommerce Solution</a></li>
+              <li>Web Development</li>
+              <li>Content Development</li>
+              <li>Information Architecture</li>
+              <li>eCommerce Solution</li>
             </ul>
           </div>
         </div>
@@ -112,10 +110,10 @@ permalink: /about/
               It’s all good until it breaks. The last thing you want is another distraction especially when it is a tool that you use everyday. We make sure that your website is performing how you expect it to, so you can get to doing what you do.
             </p>
             <ul class="arrow-list">
-              <li><a href="#">Hosting/Domain Management</a></li>
-              <li><a href="#">Analytics</a></li>
-              <li><a href="#">Search Engine Optimization</a></li>
-              <li><a href="#">Email Support</a></li>
+              <li>Hosting/Domain Management</li>
+              <li>Analytics</li>
+              <li>Search Engine Optimization</li>
+              <li>Email Support</li>
             </ul>
           </div>
         </div>
